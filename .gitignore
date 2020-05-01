@@ -1,0 +1,19 @@
+# ignore virtual environment
+bin/
+lib/
+pyvenv.cfg
+
+# ignore python compiled files
+*.pyc
+
+# ignore vscode files
+.vscode/
+
+# ignore sqlite
+src/db.sqlite3
+
+# migrations
+src/**/migrations/**
+!src/**/migrations/
+!src/**/migrations/__init__.py
+
